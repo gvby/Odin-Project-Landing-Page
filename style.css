@@ -1,11 +1,16 @@
 body {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .header{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-basis: auto;
+    background-color: rgb(173, 197, 173);
 }
 
 ul {
@@ -18,14 +23,14 @@ ul {
 
   a {
     text-decoration: none;
-    color: gray;
+    color: rgb(85, 85, 85);
   }
 
 button {
     border-radius: 10px;
     padding: auto;
     width: 100px;
-    height: 50px;
+    height: 25px;
 } 
 
 ul {
