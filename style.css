@@ -1,6 +1,5 @@
 body {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .header{
@@ -8,6 +7,19 @@ body {
     flex-wrap: wrap;
     flex-basis: auto;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
 
 button {
     border-radius: 10px;
