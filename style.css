@@ -107,8 +107,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 20px;
-    margin: 0;
+    padding: 25px 100px;
     height: 100px;
     width: 800px; 
     border-radius: 10px;
@@ -133,4 +132,7 @@ img {
     justify-content: center;
     align-self: flex-end;
     align-items: center;
+    background-color: rgb(194, 208, 190);
+    color: white;
+    border-color: white;
 }
