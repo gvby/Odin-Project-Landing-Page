@@ -75,12 +75,27 @@ button {
     gap: 52px;
 }
 
-.quote {
+.photo-quote {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     background-color: #e5e7eb;
     padding: 150px;
     font-size: 32px;
     font-style: light italic;
+}
+
+.quote{
+    align-self: center;
+    width: 70%;
+}
+
+.author{
+    align-self: flex-end;
+    justify-content: flex-end;
+    width: 35%;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .text {
