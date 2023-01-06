@@ -25,6 +25,8 @@ body {
 .footer {
     background-color: rgb(96, 107, 96);
     justify-content: center;
+    font-weight: 300;
+    color: rgb(215, 213, 213);
 }
 
 .logo {
@@ -58,18 +60,27 @@ ul {
 
 button {
     border-radius: 10px;
-    padding: auto;
     width: 100px;
-    height: 25px;
+    height: 35px;
     background-color: rgb(215, 213, 213);
     border-color: whitesmoke;
 } 
 
 .info {
     display: flex;
+    height: 350px;
+    margin-bottom: 32px;
+    text-align: center;
     justify-content: center;
     gap: 52px;
-    margin-bottom: 32px;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 150px;
+    font-size: 32px;
+    font-style: light italic;
 }
 
 .text {
@@ -79,4 +90,47 @@ button {
 img {
     max-width: 100px;
     max-height: 100px;
+}
+
+.more-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 350px;
+    background-color: rgb(252, 254, 252);
+}
+
+.modal {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 0;
+    height: 100px;
+    width: 800px; 
+    border-radius: 10px;
+    background: rgb(194, 208, 190);
+    box-shadow: 2px 4px 16px darkgray;
+}
+
+.header-sign-up {
+    display: flex;
+    align-self: flex-start;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text-sign-up {
+    display: flex;
+    align-self: flex-start;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    align-items: center;
 }
