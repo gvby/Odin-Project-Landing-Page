@@ -1,24 +1,40 @@
 body {
     display: flex;
-    flex-flow: column;
-    flex-basis: auto;
+    flex-flow: column wrap;
+    flex-grow: 1;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
     flex-wrap: wrap;
-    flex-basis: auto;
+    flex-grow: 1;
     background-color: rgb(96, 107, 96);
     height: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+    background-color: rgb(96, 107, 96);
+    justify-content: center;
 }
 
 .logo {
     border-radius: 300px;
     height: 70px;
+}
+
+.links {
+    display: flex;
+    align-self: flex-end;
 }
 
 h1 {
@@ -48,13 +64,6 @@ button {
     background-color: rgb(215, 213, 213);
     border-color: whitesmoke;
 } 
-
-ul {
-    text-decoration: none;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 .info {
     display: flex;
