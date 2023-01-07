@@ -66,13 +66,33 @@ button {
     border-color: whitesmoke;
 } 
 
-.info {
-    display: flex;
-    height: 350px;
-    margin-bottom: 32px;
+.info{
     text-align: center;
+    font-size: 24px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
     justify-content: center;
-    gap: 52px;
+    align-items: center;
+    height: 300px;
+    gap: 50px;
+    text-align: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: fill;
+    border: rgb(232, 232, 159);
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 3px;
+
 }
 
 .photo-quote {
@@ -96,15 +116,6 @@ button {
     width: 35%;
     font-size: 24px;
     font-weight: bold;
-}
-
-.text {
-    max-width: 200px;
-}
-
-img {
-    max-width: 100px;
-    max-height: 100px;
 }
 
 .more-info {
