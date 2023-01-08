@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #606b60;
-    height: 100x;
+    height: 530px;
     width: 100%;
 }
 
@@ -19,7 +19,6 @@ body {
     padding-top: 30px;
     justify-content: space-around;
     align-items: flex-end;
-    font-size: 18px;
 }
 
 .logo {
@@ -28,22 +27,49 @@ body {
     width: 50px;
 }
 
+.links {
+    display: flex;
+    align-self: flex-start;
+    font-size: 18px;
+}
+
 .second-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 30px;
+    margin-bottom: 70px;
     gap: 100px
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
 }
 
 .header-image {
     height: 300px;
     width: 400px;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
 }
 
 ul {
@@ -62,11 +88,13 @@ ul {
 
 button {
     border-radius: 10px;
-    width: 100px;
-    height: 35px;
+    width: 135px;
+    height: 40px;
     background-color: rgb(96, 107, 96);
     border-color: whitesmoke;
     color: rgb(242, 236, 127);
+    font-size: medium;
+    font-weight: 800;
 } 
 
 .info{
