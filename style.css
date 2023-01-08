@@ -38,7 +38,7 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 70px;
-    gap: 100px
+    gap: 120px;
 }
 
 .headings {
@@ -46,7 +46,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    gap: 15px;
+    gap: 20px;
 }
 
 h1 {
@@ -65,6 +65,7 @@ h2, h3 {
 .heading {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .header-image {
@@ -98,10 +99,18 @@ button {
 } 
 
 .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     font-size: 24px;
     margin-top: 15px;
     font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .image-container {
@@ -112,7 +121,7 @@ button {
     gap: 50px;
     text-align: center;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 img {
@@ -123,7 +132,10 @@ img {
     border-style: solid;
     border-radius: 30px;
     border-width: 3px;
+}
 
+.text {
+    font-size: 18px;
 }
 
 .photo-quote {
@@ -197,7 +209,9 @@ img {
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 16px;
+    height: 30px;
     font-weight: 300;
     background-color: rgb(96, 107, 96); 
     color: rgb(215, 213, 213);
